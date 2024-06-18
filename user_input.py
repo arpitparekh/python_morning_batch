@@ -30,8 +30,26 @@ if number%5==0 and number%11==0:
     print('number is divisible by 5 and 11')
 else:
     print('number is not divisible by 5 and 11')
+    
+# check whether the number is even or odd
 
+num = int(input("Please enter number : "))  # 34
 
+if num%2==0:
+    print("even number")
+else:
+    print("Odd number")
+    
+# check where the number is between 0..100
 
+num = int(input("Enter Number to check in range :"))
 
-
+# if 0<=num<=100:
+# if 0<=num and num <=100:
+if num in range(0,100):
+    print("InRange")
+else:
+    print("OutRange")
+    
+    
+    

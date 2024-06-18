@@ -52,8 +52,9 @@ if a>b:
     else:
         print('c is max')
         
-else:     # a<b
+else:
     if a<b:
         print('b is max')
     else:
         print('a is max')
+        
