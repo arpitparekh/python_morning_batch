@@ -64,3 +64,12 @@ print(f'price is very { 'expensive' if value>3200 else 'cheep' }')
 salary = 1200000
 
 print(f'my salary is {salary:,} rs')
+
+number = 0.25
+
+print(f"number is {number:%} ok?")
+
+# escape sequences
+
+print('this is python language \' please practice')
+
