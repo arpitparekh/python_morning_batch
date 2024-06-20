@@ -50,6 +50,3 @@ if num in range(0,100):
     print("InRange")
 else:
     print("OutRange")
-    
-    
-    
