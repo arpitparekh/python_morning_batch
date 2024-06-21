@@ -65,8 +65,30 @@ i = 1
 
 while i<=10:
     print(f"{n} * {i}   = {n*i}")
-    i+=1
+    i+=1    
+    
+# sum of first 10 natural numbers
 
+i = 1
+sum = 0
+while i<=10:
+    
+    sum = sum + i # 1 , 2 , 5
+    
+    i+=1    
+print(f"sum is {sum}")
+
+
+
+
+
+
+           
+    
+    
+    
+    
+    
     
 
         
