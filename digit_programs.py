@@ -39,7 +39,7 @@ while myNum2!=0:                    # 1234  # 123   12  1
     
     last_digit = myNum2 % 10        # 4     #  3    2   1
     
-    rev = rev*10 + last_digit       # 4   #  43   # 432  # 4321
+    rev = rev*10 + last_digit       # 4     #  43   # 432  # 4321
     
     myNum2 //= 10                   #  123  12    1    0
     
