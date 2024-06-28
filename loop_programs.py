@@ -46,7 +46,11 @@ if another==sum:
 else:
     print("Number is not armstrong")
     
-# decimal to binary conversion
+
+    
+    
+
+
     
     
     
