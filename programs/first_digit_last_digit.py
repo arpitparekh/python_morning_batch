@@ -10,5 +10,16 @@ while num!=0:
     
 
 print(f"First Digit is : {new_last_digit}")
-print(f"Last Digit is : {last_digit}")    
+print(f"Last Digit is : {last_digit}") 
+
+
+
+# 4356
+# 4 , 6
+# 4356 - 6 + 4 = 4354
+# 4 * 1000 = 4000
+# 4356 - 4000 = 354
+# 6 * 1000 = 6000
+# 6000 + 354 = 6354
+    
 
