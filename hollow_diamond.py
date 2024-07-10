@@ -17,16 +17,12 @@ for x in range(1,6):
     
     for y in range(x,6):
         print("*",end="")
-    
     for z in range(3,2*x+1):    # (3,3)(3,5)()
         print(" ",end="")
-    
     for y in range(1,12-2*x): # (1,11)
-        print("*",end="") 
-     
+        print("*",end="")
     for z in range(3,2*x+1):    # (3,3)(3,5)()
         print(" ",end="")
-        
     for y in range(1,12-2*x): # (1,11)
         print("*",end="") 
     for z in range(3,2*x+1):    # (3,3)(3,5)()
@@ -68,6 +64,7 @@ print()
 # **********
 
 # class and objects
+# functional programming
 
 
 
