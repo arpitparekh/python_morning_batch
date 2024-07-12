@@ -6,6 +6,8 @@ class Institute:
     age = 0
     no_student = 0
     
+    # instance methods
+    
     def teaching(self,name):                        # self means the class itself
         print(f"Teaching is happening by {name}")
         
@@ -29,9 +31,3 @@ i3.name = "Red and White"
 i3.age = 34
 i3.no_student = 60
 i3.teaching("Bhaumik")
-
-
-
-        
-
-        
