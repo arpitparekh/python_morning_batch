@@ -1,5 +1,8 @@
 class College:
     
+    # oopc
+    # object oriented programming concept
+    
     name = ""
     no_students = 0
     no_bench = 0
@@ -20,9 +23,7 @@ class College:
         print(self.no_bench)      
         print(self.no_departments)           
         
-    # we can represent class object inside a class using self     
-    
-    
+# we can represent class object inside a class using self     
 
 c = College()      
 c1 = College()
