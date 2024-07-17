@@ -12,4 +12,4 @@ class Vehicle:
     def __init__(self,name):
         print(f"Constructor is calling hi {name}")             
   
-v = Vehicle("Kevin")  
+v = Vehicle("Kevin")
