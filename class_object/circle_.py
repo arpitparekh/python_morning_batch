@@ -24,7 +24,3 @@ c.findCircumference()
 print(c.radius)
 print(c.area)
 print(c.circum)
-
-
-
-        
