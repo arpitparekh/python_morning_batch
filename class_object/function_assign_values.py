@@ -11,7 +11,7 @@ class College:
     def assignValues(self,name,no_students,no_bench,no_departments):
         
         # i'm assigning parameter values to class properties
-        
+
         self.name = name
         self.no_students = no_students
         self.no_bench = no_bench

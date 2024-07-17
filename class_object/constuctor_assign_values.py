@@ -1,15 +1,15 @@
 class Bascom:
-    id = 0
-    no_student = 0
-    head_name = ""
-    branch_name = ""
+    # id = 0
+    # no_student = 0
+    # head_name = ""
+    # branch_name = ""
     
     # constructor
     # is a function that calls automatically when we create an object of that class
     
     
-    def __init__(self):
-        print("This is Constructor")
+    # def __init__(self):
+    #     print("This is Constructor")
         
     def __init__(self,id,no_student,head_name,branch_name):
         self.id = id

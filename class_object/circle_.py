@@ -9,7 +9,6 @@ class Circle:
     def findArea(self):
         self.area = 3.14 * self.radius * self.radius
         
-    radius = 0
     area = 0
     circum = 0
     
