@@ -2,7 +2,6 @@
 # modules are just same as python code
 # hello() => in different file
 
-
 def jumping():
     print("I am jumping")
     
@@ -17,4 +16,13 @@ data = {
     "city": "New York"
 }           
 
+def findPrime(a):   # 23  
+    if a <= 1:
+        return False
+    
+    for i in range(2,a):    # 2..22
+        if a%i==0:
+            return False
+        
+    return True    
             

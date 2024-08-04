@@ -1,11 +1,15 @@
 # from my_module import Person,jumping,data
 
-import my_module as m  # renaming a module
+# import my_module as m # renaming a module
 
-m.jumping()
+from my_module import jumping,Person,data,findPrime
 
-class Student(m.Person):
+jumping()
+
+class Student(Person):
     def __init__(self, name):
         super().__init__(name)
 
-print(m.data)
+print(data)
+        
+print(findPrime(23))
