@@ -5,11 +5,11 @@
 def jumping():
     print("I am jumping")
     
-
+    
 class Person:
     def __init__(self, name):
         self.name = name     
-
+        
 data = {
     "name": "John",
     "age": 30,
@@ -24,5 +24,4 @@ def findPrime(a):   # 23
         if a%i==0:
             return False
         
-    return True    
-            
+    return True
