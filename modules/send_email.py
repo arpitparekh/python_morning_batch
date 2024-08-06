@@ -31,15 +31,18 @@
     
     
 import smtplib
-# creates SMTP session
-s = smtplib.SMTP('smtp.gmail.com', 587)
-# start TLS for security
-s.starttls()
-# Authentication
-s.login("arpitparekh9@gmail.com", "iitrydlyibfgaxrb")
-# message to be sent
-message = "hi there. How are you doing"
-# sending the mail
-s.sendmail("arpitparekh9@gmail.com", "drnamratapandya@gmail.com", message)
-# terminating the session
-s.quit()    
+
+def sendMail(sender,receiver,password,message):
+    # creates SMTP session
+    s = smtplib.SMTP('smtp.gmail.com', 587)
+    # start TLS for security
+    s.starttls()
+    # Authentication
+    s.login(sender, password)
+    # sending the mail
+    s.sendmail(sender, receiver, message)
+    # terminating the session
+    s.quit()    
+    
+# iitrydlyibfgaxrb    
+    
