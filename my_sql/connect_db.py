@@ -1,17 +1,17 @@
-# import mysql.connector
+import mysql.connector
 
-# mydb = mysql.connector.connect(
-#   host="localhost",
-#   user="root",
-#   password="Walden0042$$",
-#   database="Company"
-# )
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="Walden0042$$",
+  database="authentication"
+)
 
-# mycursor = mydb.cursor()
+mycursor = mydb.cursor()
 
-# mycursor.execute("SELECT * FROM Child")
+mycursor.execute("SELECT name,price FROM product")
 
-# myresult = mycursor.fetchall()
+myresult = mycursor.fetchall()
 
-# for x in myresult:
-#   print(x)
+for x in myresult:
+  print(x)
