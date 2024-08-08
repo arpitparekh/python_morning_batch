@@ -10,7 +10,6 @@ mydb = mysql.connector.connect(
   database="authentication"
 )
 
-
 def getPosts():
     url = "https://jsonplaceholder.typicode.com/posts"
     
@@ -30,15 +29,11 @@ def getPosts():
                 mycursor.execute(sql, val)
                 mydb.commit()
                 
-            
         else:
             print("Failed to retrieve data")
             
     except:
-        
         print("Error: Unable to connect to the server.")
-        
-
 
 getPosts()        
         
