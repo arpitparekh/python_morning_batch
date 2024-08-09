@@ -1,5 +1,6 @@
 
 # https://jsonplaceholder.typicode.com/posts
+
 import requests
 import mysql.connector
 
