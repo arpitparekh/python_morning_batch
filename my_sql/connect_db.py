@@ -14,4 +14,4 @@ mycursor.execute("SELECT name,price FROM product")
 myresult = mycursor.fetchall()
 
 for x in myresult:
-  print(x)
+  print(x)   
